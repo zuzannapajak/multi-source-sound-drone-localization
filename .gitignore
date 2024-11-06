@@ -162,8 +162,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# mp4 and wav
-data\video\Drones_1.mp4
-data\video\Drones_2.mp4
-data\audio\Drones_1.wav
-data\audio\Drones_2.wav
+# Data preparation
+data/audio/
+data/video/
