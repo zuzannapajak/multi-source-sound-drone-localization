@@ -1,0 +1,1 @@
+Epoch	Learning Rate	Train Loss	A2V	V2A	
