@@ -26,5 +26,5 @@ def extract_frames(video_path, output_dir, fps=1):
     video.release()
 
 # Example usage:
-extract_frames("video/Drones_1.mp4", "video/frames")
-extract_frames("video/Drones_2.mp4", "video/frames")
+extract_frames("images/mp4/Drones_1.mp4", "images/frames")
+extract_frames("images/mp4/Drones_2.mp4", "images/frames")

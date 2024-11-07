@@ -30,5 +30,5 @@ def convert_audio_to_melspectrogram(audio_path, output_dir, sr=22050, n_mels=128
     plt.show()
 
 # Example usage:
-convert_audio_to_melspectrogram("audio/Drones_1.wav", "audio/spectrograms")
-convert_audio_to_melspectrogram("audio/Drones_2.wav", "audio/spectrograms")
+convert_audio_to_melspectrogram("audio/wav/Drones_1.wav", "audio/spectrograms")
+convert_audio_to_melspectrogram("audio/wav/Drones_2.wav", "audio/spectrograms")

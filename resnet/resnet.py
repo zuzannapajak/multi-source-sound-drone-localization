@@ -228,7 +228,8 @@ class ResNet(nn.Module):
             x = self.layer3(x)
 
         elif mode == 'top':
-            x = self.layer4(x.view(-1, *x.shape[2:]))
+            # x = self.layer4(x.view(-1, *x.shape[2:]))
+            x = self.layer4(x)  # Ensure x is passed without reshaping
             x = self.maxpooling(x)
             x = torch.flatten(x, 1)
             x = self.fc(x)
@@ -241,7 +242,8 @@ class ResNet(nn.Module):
             return x, f
 
         else:
-            x = self.layer4(x.view(-1, *x.shape[2:]))
+            # x = self.layer4(x.view(-1, *x.shape[2:]))
+            x = self.layer4(x)  # Ensure x is passed without reshaping
             x = self.avgpool(x)
             x = torch.flatten(x, 1)
             prob = self.fc(x)

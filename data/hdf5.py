@@ -32,7 +32,7 @@ def create_hdf5(image_root_dir, audio_root_dir, output_path):
     print(f"HDF5 file saved at {output_path}")
 
 # Example usage:
-image_root_directory = 'video/frames'  # Root directory containing subdirectories of frames for each video
+image_root_directory = 'images/frames'  # Root directory containing subdirectories of frames for each video
 audio_root_directory = 'audio/spectrograms'  # Directory containing spectrograms for each video
 output_hdf5_path = 'Drones_data.h5'  # Output path for HDF5 file
 

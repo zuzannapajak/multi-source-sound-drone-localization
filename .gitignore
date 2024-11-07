@@ -163,5 +163,5 @@ cython_debug/
 #.idea/
 
 # Data preparation
-data/audio/
-data/video/
+data/audio/wav/
+data/images/
